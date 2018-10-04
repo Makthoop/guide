@@ -1,0 +1,25 @@
+# Whats Sudo
+
+###
+Sudo is a way of saying please on Linux operating systems it stands for "superuser do". Similar to when you talk to a family member
+If you say please they will be much more inclined to do something. If you want your parents to grab you a glass of water at dinner time
+You would say "would you please grab me a glass of water" in Linux you would use sudo if you wanted to grab some files you might say
+"sudo wget www.example.com/targetdir/targetfile".
+
+## When should I use sudo? 
+###
+You will in most cases need to use sudo for most anything like downloading software, running executables or for example updating
+your system with "sudo apt-get update". You don't want to use sudo for some simple tasks like making a new directory because then the
+directory permissions get funky and can be a security risk if not used correctly. Also if you use sudo your computer will do the task 
+so be careful when using commands like "sudo rm*" in the past I've deleted entire directories which I didn't intend to delete.
+
+## What's this talk about su (super user)
+###
+With this command you can get into other peoples directories and run things that are theirs. if you say "su john456" and enter their 
+password you will be in all of Johns stuff. If you type just "su" and enter the root password you will be root I ## NEVER ### recommend
+using root I have messed up and deleted more things then I can count using root.
+
+## summary
+###
+Sudo is similar to saying please in a Unix environment. be careful what you use it for it may mess things up depending on what you use it
+with. Using su is a big mess and I personally recommend staying away from it
